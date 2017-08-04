@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   tf
   mesh_msgs
   )
+
 ## System dependencies are found with CMake's conventions
 find_package(LVR REQUIRED)
 include_directories(${LVR_INCLUDE_DIRS})
